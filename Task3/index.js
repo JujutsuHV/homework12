@@ -12,7 +12,7 @@ function calculateBMI() {
     resultText.textContent = `Индекс массы тела (ИМТ): ${resRound}`;
     weight.value = '';
     height.value = '';
-}
+} //Расчет ИМТ (индекс массы тела), не уверена, правильно ли сделала разделив на 100 значение роста.
 
 button.addEventListener('click', calculateBMI);
 
